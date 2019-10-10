@@ -273,7 +273,7 @@ namespace Tinybit {
     //% blockId=Tinybit_CarCtrl block="CarCtrl|%index"
     //% weight=93
     //% blockGap=10
-    //% color="#006400"
+    //% color="#a4fc4b"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrl(index: CarState): void {
         switch (index) {
@@ -309,7 +309,7 @@ namespace Tinybit {
     //% weight=91
     //% blockGap=10
     //% speed1.min=0 speed1.max=255 speed2.min=0 speed2.max=255
-    //% color="#006400"
+    //% color="#a4fc4b"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=10
     export function CarCtrlSpeed2(index: CarState, speed1: number, speed2: number): void {
         switch (index) {
